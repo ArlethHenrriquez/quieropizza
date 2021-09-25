@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuieroPizza.Web", "QuieroPizza.Web\QuieroPizza.Web.csproj", "{393AE0B3-5C3B-4870-8786-CF3EC1EF8B38}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.Web", "QuieroPizza.Web\ClothingStore.Web.csproj", "{393AE0B3-5C3B-4870-8786-CF3EC1EF8B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.WebAdmin", "ClothingStore.WemAdmin\ClothingStore.WebAdmin.csproj", "{22099FD2-E3AD-4346-A743-2CC6D1D5A30F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClotingStore.Win", "ClotingStore.Win\ClotingStore.Win.csproj", "{5463546B-0D26-4C60-A2A8-84408A83C1C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClothingStore.BL", "ClothingStore.BL\ClothingStore.BL.csproj", "{944CE08E-4269-4E7C-B72F-E2F54C0DA242}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{393AE0B3-5C3B-4870-8786-CF3EC1EF8B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{393AE0B3-5C3B-4870-8786-CF3EC1EF8B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{393AE0B3-5C3B-4870-8786-CF3EC1EF8B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22099FD2-E3AD-4346-A743-2CC6D1D5A30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22099FD2-E3AD-4346-A743-2CC6D1D5A30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22099FD2-E3AD-4346-A743-2CC6D1D5A30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22099FD2-E3AD-4346-A743-2CC6D1D5A30F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5463546B-0D26-4C60-A2A8-84408A83C1C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5463546B-0D26-4C60-A2A8-84408A83C1C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5463546B-0D26-4C60-A2A8-84408A83C1C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5463546B-0D26-4C60-A2A8-84408A83C1C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{944CE08E-4269-4E7C-B72F-E2F54C0DA242}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{944CE08E-4269-4E7C-B72F-E2F54C0DA242}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{944CE08E-4269-4E7C-B72F-E2F54C0DA242}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{944CE08E-4269-4E7C-B72F-E2F54C0DA242}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
