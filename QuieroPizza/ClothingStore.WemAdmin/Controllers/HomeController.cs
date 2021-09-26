@@ -14,9 +14,9 @@ namespace ClothingStore.WemAdmin.Controllers
          {
 
             var productosBL = new ProductosBL();
-            var listaProductos = productosBL.obtenerProductos();
+            var listaProductos = productosBL.ObtenerProductos();
 
-             return View(listaProductos);
+             return View();
            
          }
     }
